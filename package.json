@@ -26,7 +26,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "black",
+        "label": "Black",
         "uiTheme": "vs-dark",
         "path": "./themes/crx-dev-black-theme.json"
       }
