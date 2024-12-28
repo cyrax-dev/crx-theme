@@ -1,0 +1,35 @@
+{
+  "name": "crxtheme",
+  "displayName": "CRXTheme",
+  "description": "CRXTheme color theme",
+  "version": "1.0.0",
+  "publisher": "CYRAX",
+  "icon": "assets/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cyrax-dev/CRXTheme"
+	},
+  "keywords": [
+    "theme",
+    "dark theme",
+    "black theme",
+    "crx",
+    "cyrax",
+    "crx-dev"
+  ],
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CRX-DEV",
+        "uiTheme": "vs-dark",
+        "path": "./themes/crx-dev-black-theme.json"
+      }
+    ]
+  }
+}
